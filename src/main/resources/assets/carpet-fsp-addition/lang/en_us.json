@@ -1,0 +1,7 @@
+{
+  "carpet.rule.itemFrameAdvancedInteract.name": "ItemFrame Advanced Interact",
+  "carpet.rule.itemFrameAdvancedInteract.desc": "ItemFrame Advanced Interact",
+
+  "carpet.rule.playerSit.name": "Player sit",
+  "carpet.rule.playerSit.desc": "After 3 quick sneaks, the player can sit down; by plusls"
+}

@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "package": "ink.fsp.carpetfspaddition.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "ServerPlayNetworkHandlerMixin",
+    "rule.playerSit.MixinArmorStandEntity",
+    "rule.playerSit.MixinServerPlayerEntity"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+	}
+}
