@@ -3,5 +3,8 @@
   "carpet.rule.itemFrameAdvancedInteract.desc": "右键展示框可穿透并打开容器, 潜行时则是原版交互逻辑",
 
   "carpet.rule.playerSit.name": "玩家坐下",
-  "carpet.rule.playerSit.desc": "在快速潜行 3 次后玩家可以坐下 by plusls"
+  "carpet.rule.playerSit.desc": "在快速潜行 3 次后玩家可以坐下 by plusls",
+
+  "carpet.rule.broadcastCarpetCommandFeedback.name": "carpet 命令反馈广播",
+  "carpet.rule.broadcastCarpetCommandFeedback.desc": "[all] 全部在线 op; [self] 仅自己"
 }

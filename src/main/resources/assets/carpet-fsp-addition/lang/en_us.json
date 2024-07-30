@@ -3,5 +3,9 @@
   "carpet.rule.itemFrameAdvancedInteract.desc": "ItemFrame Advanced Interact",
 
   "carpet.rule.playerSit.name": "Player sit",
-  "carpet.rule.playerSit.desc": "After 3 quick sneaks, the player can sit down; by plusls"
+  "carpet.rule.playerSit.desc": "After 3 quick sneaks, the player can sit down; by plusls",
+
+
+  "carpet.rule.broadcastCarpetCommandFeedback.name": "broadcast carpet command feedback",
+  "carpet.rule.broadcastCarpetCommandFeedback.desc": "[all] all online op; [self] yourself"
 }
