@@ -17,4 +17,6 @@ public class FspSettings {
     public static boolean playerSit = false;
     @Rule(categories = {fsp})
     public static broadcastCarpetCommandFeedbackEnum broadcastCarpetCommandFeedback = broadcastCarpetCommandFeedbackEnum.ALL;
+    @Rule(categories = {fsp, RuleCategory.CREATIVE})
+    public static boolean hopperDisable = false;
 }

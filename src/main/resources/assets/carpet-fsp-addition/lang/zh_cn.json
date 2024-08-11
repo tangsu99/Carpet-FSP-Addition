@@ -6,5 +6,8 @@
   "carpet.rule.playerSit.desc": "在快速潜行 3 次后玩家可以坐下 by plusls",
 
   "carpet.rule.broadcastCarpetCommandFeedback.name": "carpet 命令反馈广播",
-  "carpet.rule.broadcastCarpetCommandFeedback.desc": "[all] 全部在线 op; [self] 仅自己"
+  "carpet.rule.broadcastCarpetCommandFeedback.desc": "[all] 全部在线 op; [self] 仅自己",
+
+  "carpet.rule.hopperDisable.name": "锁定漏斗",
+  "carpet.rule.hopperDisable.desc": "锁定漏斗, 不会乱吸东西了哦~"
 }
