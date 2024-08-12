@@ -10,5 +10,8 @@
   "carpet.rule.broadcastCarpetCommandFeedback.desc": "[all] all online op; [self] yourself",
 
   "carpet.rule.hopperDisable.name": "Hopper disable",
-  "carpet.rule.hopperDisable.desc": "Hopper disable awa"
+  "carpet.rule.hopperDisable.desc": "Hopper disable awa",
+
+  "carpet.rule.stopStampedeFarmland.name": "Stop stampede farmland",
+  "carpet.rule.stopStampedeFarmland.desc": "Stop stampede farmland"
 }

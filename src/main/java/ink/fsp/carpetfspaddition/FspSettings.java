@@ -19,4 +19,6 @@ public class FspSettings {
     public static broadcastCarpetCommandFeedbackEnum broadcastCarpetCommandFeedback = broadcastCarpetCommandFeedbackEnum.ALL;
     @Rule(categories = {fsp, RuleCategory.CREATIVE})
     public static boolean hopperDisable = false;
+    @Rule(categories = {fsp, RuleCategory.SURVIVAL})
+    public static boolean stopStampedeFarmland = false;
 }

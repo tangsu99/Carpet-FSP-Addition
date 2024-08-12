@@ -3,11 +3,12 @@
   "package": "ink.fsp.carpetfspaddition.mixin",
   "compatibilityLevel": "JAVA_21",
   "mixins": [
-    "rule.hopperDisable.MixinHopperBlockEntity",
     "ServerPlayNetworkHandlerMixin",
     "rule.broadcastCarpetCommandFeedback.MixinCarpetMessenger",
+    "rule.hopperDisable.MixinHopperBlockEntity",
     "rule.playerSit.MixinArmorStandEntity",
-    "rule.playerSit.MixinServerPlayerEntity"
+    "rule.playerSit.MixinServerPlayerEntity",
+    "rule.stopStampedeFarmland.MixinFarmlandBlock"
   ],
   "injectors": {
     "defaultRequire": 1

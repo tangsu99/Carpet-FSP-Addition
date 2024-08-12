@@ -9,5 +9,8 @@
   "carpet.rule.broadcastCarpetCommandFeedback.desc": "[all] 全部在线 op; [self] 仅自己",
 
   "carpet.rule.hopperDisable.name": "锁定漏斗",
-  "carpet.rule.hopperDisable.desc": "锁定漏斗, 不会乱吸东西了哦~"
+  "carpet.rule.hopperDisable.desc": "锁定漏斗, 不会乱吸东西了哦~",
+
+  "carpet.rule.stopStampedeFarmland.name": "阻止踩踏耕地",
+  "carpet.rule.stopStampedeFarmland.desc": "耕地无法被任何生物踩坏"
 }
