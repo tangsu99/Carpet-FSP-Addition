@@ -21,4 +21,6 @@ public class FspSettings {
     public static boolean hopperDisable = false;
     @Rule(categories = {fsp, RuleCategory.SURVIVAL})
     public static boolean stopStampedeFarmland = false;
+    @Rule(categories = {fsp, RuleCategory.FEATURE, RuleCategory.DISPENSER, RuleCategory.EXPERIMENTAL})
+    public static boolean anvilDispenserBehavior = false;
 }

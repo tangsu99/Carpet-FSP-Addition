@@ -1,11 +1,14 @@
 package ink.fsp.carpetfspaddition;
 
 import ink.fsp.carpetfspaddition.commands.ShowCommand;
+import ink.fsp.carpetfspaddition.dispenserBehavior.rule.AnvilDispenserBehavior;
 import ink.fsp.carpetfspaddition.event.rule.itemFrameAdvancedInteract.PlayerUseEntityCallback;
 import ink.fsp.carpetfspaddition.event.rule.itemFrameAdvancedInteract.PlayerUseEntityHandler;
 import net.fabricmc.api.ModInitializer;
 
 import net.fabricmc.fabric.api.command.v2.CommandRegistrationCallback;
+import net.minecraft.block.DispenserBlock;
+import net.minecraft.item.Items;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -26,5 +29,6 @@ public class CarpetFspAddition implements ModInitializer {
 		CarpetFspAdditionServer.init();
 		PlayerUseEntityCallback.EVENT.register(new PlayerUseEntityHandler());
 		CommandRegistrationCallback.EVENT.register((dispatcher, registryAccess, environment) -> ShowCommand.register(dispatcher));
+		DispenserBlock.registerBehavior(Items.ANVIL, new AnvilDispenserBehavior());
 	}
 }

@@ -13,5 +13,8 @@
   "carpet.rule.hopperDisable.desc": "Hopper disable awa",
 
   "carpet.rule.stopStampedeFarmland.name": "Stop stampede farmland",
-  "carpet.rule.stopStampedeFarmland.desc": "Stop stampede farmland"
+  "carpet.rule.stopStampedeFarmland.desc": "Stop stampede farmland",
+
+  "carpet.rule.anvilDispenserBehavior.name": "Anvil dispenser behavior",
+  "carpet.rule.anvilDispenserBehavior.desc": "Anvil dispenser behavior"
 }
