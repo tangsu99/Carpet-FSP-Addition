@@ -1,6 +1,6 @@
 # FSP Carpet addition
 
-[**中文**](README_.md) | **English**
+[**中文**](README.md) | **English**
 
 ## Document
 [wiki](http://www.fsp.ink/wiki/CarpetFSPaddition.html)
