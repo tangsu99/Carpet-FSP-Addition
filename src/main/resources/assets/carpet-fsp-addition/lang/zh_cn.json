@@ -15,5 +15,8 @@
   "carpet.rule.stopStampedeFarmland.desc": "耕地无法被任何生物踩坏",
 
   "carpet.rule.anvilDispenserBehavior.name": "发射器可放置铁砧",
-  "carpet.rule.anvilDispenserBehavior.desc": "发给发射器添加放置铁砧的行为, 朝向空气才会放置铁砧, 否则吐出物品"
+  "carpet.rule.anvilDispenserBehavior.desc": "发给发射器添加放置铁砧的行为, 朝向空气才会放置铁砧, 否则吐出物品",
+
+  "carpet.rule.customStopSpawnMob.name": "自定义禁止生成生物",
+  "carpet.rule.customStopSpawnMob.desc": "禁止生成列表中的生物, 以 \",\" 分隔; 示例: minecraft:creeper,minecraft:phantom"
 }

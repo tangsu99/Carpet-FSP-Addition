@@ -16,5 +16,8 @@
   "carpet.rule.stopStampedeFarmland.desc": "Stop stampede farmland",
 
   "carpet.rule.anvilDispenserBehavior.name": "Anvil dispenser behavior",
-  "carpet.rule.anvilDispenserBehavior.desc": "Anvil dispenser behavior"
+  "carpet.rule.anvilDispenserBehavior.desc": "Anvil dispenser behavior",
+
+  "carpet.rule.customStopSpawnMob.name": "Custom stop spawnMob",
+  "carpet.rule.customStopSpawnMob.desc": "Custom stop spawnMob"
 }

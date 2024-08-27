@@ -2,6 +2,7 @@ package ink.fsp.carpetfspaddition;
 
 import carpet.CarpetExtension;
 import carpet.CarpetServer;
+import carpet.api.settings.SettingsManager;
 import carpet.utils.Translations;
 import com.google.common.reflect.TypeToken;
 import com.google.gson.Gson;
@@ -10,10 +11,10 @@ import org.apache.commons.io.IOUtils;
 
 import java.io.IOException;
 import java.nio.charset.StandardCharsets;
-import java.util.Map;
-import java.util.Objects;
+import java.util.*;
 
 public class CarpetFspAdditionServer implements CarpetExtension {
+	public static final Set<String> customStopSpawnMobList = new HashSet<>();
 	public static void init() {
 		// init
 		CarpetServer.manageExtension(new CarpetFspAdditionServer());
@@ -28,6 +29,11 @@ public class CarpetFspAdditionServer implements CarpetExtension {
 	@Override
 	public void onGameStarted() {
 		CarpetServer.settingsManager.parseSettingsClass(FspSettings.class);
+		SettingsManager.registerGlobalRuleObserver((serverCommandSource, changedRule, userInput) -> {
+			if (changedRule.name().equals("customStopSpawnMob")) {
+				customStopSpawnMobList.addAll(Arrays.asList(FspSettings.customStopSpawnMob.split(",")));
+			}
+		});
     }
 
 	@Override

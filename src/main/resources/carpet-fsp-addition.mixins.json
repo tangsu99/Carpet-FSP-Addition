@@ -3,6 +3,7 @@
   "package": "ink.fsp.carpetfspaddition.mixin",
   "compatibilityLevel": "JAVA_21",
   "mixins": [
+    "MixinSpawnHelper",
     "ServerPlayNetworkHandlerMixin",
     "rule.broadcastCarpetCommandFeedback.MixinCarpetMessenger",
     "rule.hopperDisable.MixinHopperBlockEntity",

@@ -23,4 +23,10 @@ public class FspSettings {
     public static boolean stopStampedeFarmland = false;
     @Rule(categories = {fsp, RuleCategory.FEATURE, RuleCategory.DISPENSER, RuleCategory.EXPERIMENTAL})
     public static boolean anvilDispenserBehavior = false;
+    @Rule(
+            categories = {fsp, RuleCategory.SURVIVAL},
+            options = { "#none", "minecraft:bat", "minecraft:phantom" },
+            strict = false
+    )
+    public static String customStopSpawnMob = "#none";
 }
